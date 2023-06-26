@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+}
+
+#sidebar-container{
+    width: 280px;
+    height: 100%;
+    top: 0;
+    position: fixed;
+}
+
+a:link{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+#home-collapse>ul>li{
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+.collapse>ul>li{
+    margin-left: 30px;
+    line-height: 35px;
+    font-size: 13px;
+
+}
+.collapse>ul>li:hover{
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+}
+
+#box-content>.p-2{
+    position: relative;
+    left:22%;
+    top: 5px;
+    width: 250px;
+    height: 125px;
+    margin: 50px;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px lightgray; 
+}
+
+.mb-1{
+   line-height: 75px;
+}
+
+#carouselExampleAutoplaying{
+    position: relative;
+    bottom: 1em;
+    left: 21.6em;
+    width: 950px;
+    height: 200px;
+}
+
+.nav-icons>span{
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+#order-section{
+    position: relative;
+    width: 1000px;
+    height: 900px;
+    left: 24%;
+    top: 30px;
+}
+
+.table-info>td>i{
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    left: 40px;
+}
+
+.btn-group>button{
+    margin-right: 10px;
+    position: relative;
+    left:41em;
+    border-radius: 10px;
+}
+
+
+#customer-section{
+    position: relative;
+    width: 900px;
+    height: 950px;
+    left: 26%;
+    bottom: 25px;
+}
+
+#item-section{
+    position: relative;
+    width: 900px;
+    height: 950px;
+    left: 26%;
+    top: 10px;
+}
+
+.table-success>td>i{
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    left: 40px;
+}
